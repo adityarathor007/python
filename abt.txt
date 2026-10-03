@@ -1,0 +1,51 @@
+ dataTypes/ — Python's built-in data types
+  - basic_types.py — integers (arithmetics, //, **, underscores), booleans (type coercion/bool()), floats
+  - string.py, list.py, tuple.py, set.py, dictionary.py, byte_array.py, mutableAndImmutable.py
+
+  conditionals/ — branching logic
+  - basics.py — if/elif/else, ternary operator
+  - match.py — structural pattern matching (match/case)
+
+  loops/ — iteration
+  - whileImpl.py, forImpl.py, dict_case.py, walrusOps.py — assignment expressions (:=)
+
+  functions/ — functions and modules
+  - basic.py — return values, multiple returns
+  - fn_types.py, input_param.py, scopes.py — nonlocal/global scoping
+  - importImpl/ — package imports, relative imports, custom modules
+
+  comprehensions/ — generator & data comprehensions (list, set, dict, generator expressions)
+
+  gen&Dec/ — generators & decorators
+  - genBasics.py, infiniteGen.py, sendToGen.py, closeGen.py — yield, pausing/resuming state, generator control
+  - decBasics.py, auth_decorator.py, loggingDec.py — decorator syntax, closures, functools.wraps
+
+  oops/ — OOP
+  - basics.py, inheritance&Comp.py — classes, composition (HAS-A), inheritance (IS-A), super()
+  - classMethods.py, staticMethods.py, getterSetter.py — @classmethod, @staticmethod, @property getters/setters
+  - mro.py — method resolution order
+
+  error_handling/ — exceptions & files
+  - basics.py, multiple_exception.py, custom_error_except.py, complex_try.py — try/except/finally, custom exceptions, multi-except handling
+  - fileHandling.py — file I/O
+
+  concurrency&parellesism/ — true concurrency
+  - threadingBasics.py, thread_lock.py, multiProcessingBasics.py, multiProcessing_vs_multiThreading.py — threading, locks, multiprocessing, shared
+    Value/Queue
+  - threading_downlading.py — practical threading use case
+
+  async/ — async I/O (asyncio)
+  - 01_basics.py — coroutines, await, asyncio.run()
+  - 02_run_multiple.py, 03_async_with.py — asyncio.gather(), async with
+  - 04_thread_async.py, 05_process_async.py — offloading threads/processes to thread/process pools
+  - 06_bgworker.py, 07_daemon_non_daemon.py — background workers, daemon threads
+  - 09_race_condition.py, 10_deadlock.py — race conditions, deadlocks (the race condition demo is very explicit: it splits read-modify-write and forces a
+    context switch to show lost updates, printing "Expected 2000000" vs actual)
+
+  pydantic/ — data validation (untracked, newest)
+  - 01_first_model.py — BaseModel, type-annotated parsing/serialization
+  - 02_product_model.py, 03_datatypes_example.py — real-world model setup
+  - 04_validation_with_field.py, 05_field_&_model_validation.py — Field, constraints, model-level validation
+  - 06_computed_property.py — computed fields
+  - 07_adv_validators.py — field_validator (mode='before', multiple fields), custom parsing
+  - 08_nested_models.py, 09_self_referencing_model.py, 10_adv_nested_models.py — nested & recursive models  
