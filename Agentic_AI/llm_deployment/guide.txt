@@ -1,0 +1,4 @@
+- Use docker to pull image for ollama(local llm models) and openwebui(frontend)
+- Use fastapi (backend) for custom apis that can be used with ollama models 
+- HuggingFace where people upload their ml model and test it (Github for llm models)
+    - it downloads the model and it can be used locally
